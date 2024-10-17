@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/styles/build.css" />
+    <title>Frontend Mentor | Advice generator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="bg-[#1f2632] h-svh flex flex-col justify-center items-center p-4 font-manrope"
+  >
+    <main
+      class="flex flex-col gap-5 p-5 py-10 justify-center items-center w-full md:w-[500px] h-80 rounded-xl bg-[#323a49] text-center"
+    >
+      <h1
+        id="advice-id"
+        class="text-[#52ffa8] font-extrabold tracking-[0.2em] text-sm"
+      >
+        Advice #0
+      </h1>
+      <div class="">
+        <p id="advice" class="text-[#cee3e9] font-extrabold text-2xl">
+          "Click the button below to get advice"
+        </p>
+      </div>
+      <div>
+        <img
+          class="hidden md:block"
+          src="../src/images/pattern-divider-desktop.svg"
+          alt="divider"
+        />
+        <img
+          class="block md:hidden"
+          src="../src/images/pattern-divider-mobile.svg"
+          alt="divider"
+        />
+      </div>
+      <button
+        id="advice-btn"
+        class="absolute flex flex-col items-center justify-center mt-80 w-[60px] h-[60px] bg-[#52ffa8] rounded-full drop-shadow-none lg:hover:drop-shadow-[0_0_10px_rgb(82,255,168)]"
+      >
+        <img src="../src/images/icon-dice.svg" alt="" />
+      </button>
+    </main>
+
+    <div class="attribution text-white mt-20">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/dimasrdev">Dimas Wibowo</a>.
+    </div>
+
+    <script src="../src/app/app.js"></script>
+  </body>
+</html>
