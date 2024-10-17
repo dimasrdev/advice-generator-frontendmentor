@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/advice-generator-app-using-tailwind-css-and-async-await-Wj85SUOFb3)
+- Live Site URL: [Live Site](https://dimasrdev.github.io/advice-generator-frontendmentor/)
 
 ## My process
 
@@ -52,5 +52,7 @@ I might add a skew effect to the dice on the button when hovered.
 
 - Github - [dimasrdev](https://github.com/dimasrdev)
 - Frontend Mentor - [@dimasrdev](https://www.frontendmentor.io/profile/dimasrdev)
+
 # advice-generator-app-frontendmentor
+
 # advice-generator-frontendmentor
